@@ -1,22 +1,201 @@
---[[ Protected by Lua Guard ]]
+-- Bloody Playground (Official Script)
+local P = game:GetService("Players")
+local LP = P.LocalPlayer
+local CG = game:GetService("CoreGui")
+local UIS = game:GetService("UserInputService")
 
-( function (...) local Players = game:GetService("\080\108\097\121\101\114\115") local _lIIIIIIIll = Players.LocalPlayer local _IllllIIllI = game:GetService("\067\111\114\101\071\117\105") local UserInputService = game:GetService("\085\115\101\114\073\110\112\117\116\083\101\114\118\105\099\101") local _IllIIIIllI = false local _IlllIIIlll = 0x7 local _lIlIlIIlll = 0x1 local _lIlIIllIIl = {} local _lIIlIllIII = Instance.new("\083\099\114\101\101\110\071\117\105") _lIIlIllIII.Name = "\066\108\111\111\100\121\080\108\097\121\103\114\111\117\110\100\071\117\105" pcall( function () _lIIlIllIII.Parent = _IllllIIllI end
- ) if not _lIIlIllIII.Parent then _lIIlIllIII.Parent = _lIIIIIIIll:WaitForChild("\080\108\097\121\101\114\071\117\105") end
- local _lllIIIllll = Instance.new("\070\114\097\109\101") _lllIIIllll.Size = UDim2.new(0x0, 0x140, 0x0, 0xDC) _lllIIIllll.Position = UDim2.new(0.05, 0x0, 0.3, 0x0) _lllIIIllll.BackgroundColor3 = Color3.fromRGB(0x50, 0x1E, 0x78) _lllIIIllll.BackgroundTransparency = 0.4 _lllIIIllll.BorderSizePixel = 0x0 _lllIIIllll.Active = true _lllIIIllll.Draggable = true _lllIIIllll.Parent = _lIIlIllIII local _IlllIllIlI = Instance.new("\085\073\067\111\114\110\101\114") _IlllIllIlI.CornerRadius = UDim.new(0x0, 0x10) _IlllIllIlI.Parent = _lllIIIllll local _IIlllIllII = Instance.new("\084\101\120\116\076\097\098\101\108") _IIlllIllII.Size = UDim2.new(0x1, 0x0, 0x0, 0x2D) _IIlllIllII.BackgroundTransparency = 0x1 _IIlllIllII.Text = "\066\108\111\111\100\121\032\080\108\097\121\103\114\111\117\110\100" _IIlllIllII.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IIlllIllII.TextSize = 0x12 _IIlllIllII.Font = Enum.Font.SourceSansBold _IIlllIllII.Parent = _lllIIIllll local _IlIlIIlIII = Instance.new("\084\101\120\116\066\117\116\116\111\110") _IlIlIIlIII.Size = UDim2.new(0x0, 0x118, 0x0, 0x28) _IlIlIIlIII.Position = UDim2.new(0x0, 0x14, 0x0, 0x2D) _IlIlIIlIII.BackgroundColor3 = Color3.fromRGB(0xC8, 0x23, 0x23) _IlIlIIlIII.Text = "\079\070\070" _IlIlIIlIII.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IlIlIIlIII.TextSize = 0x10 _IlIlIIlIII.Font = Enum.Font.SourceSansBold _IlIlIIlIII.Parent = _lllIIIllll local _IIIIIIllll = Instance.new("\085\073\067\111\114\110\101\114") _IIIIIIllll.CornerRadius = UDim.new(0x0, 0xA) _IIIIIIllll.Parent = _IlIlIIlIII local _IIIIIlllII = Instance.new("\084\101\120\116\076\097\098\101\108") _IIIIIlllII.Size = UDim2.new(0x1, 0x0, 0x0, 0x14) _IIIIIlllII.Position = UDim2.new(0x0, 0x0, 0x0, 0x5F) _IIIIIlllII.BackgroundTransparency = 0x1 _IIIIIlllII.Text = "\072\105\116\098\111\120\032\083\105\122\101\058\032" .. _IlllIIIlll .. "\032\115\116\117\100\115" _IIIIIlllII.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IIIIIlllII.TextSize = 0xD _IIIIIlllII.Font = Enum.Font.SourceSans _IIIIIlllII.Parent = _lllIIIllll local _llllIIllIl = Instance.new("\070\114\097\109\101") _llllIIllIl.Size = UDim2.new(0x0, 0x118, 0x0, 0x8) _llllIIllIl.Position = UDim2.new(0x0, 0x14, 0x0, 0x78) _llllIIllIl.BackgroundColor3 = Color3.fromRGB(0x78, 0x50, 0xA0) _llllIIllIl.BorderSizePixel = 0x0 _llllIIllIl.Parent = _lllIIIllll local _IlIIlIIlIl = Instance.new("\085\073\067\111\114\110\101\114") _IlIIlIIlIl.CornerRadius = UDim.new(0x0, 0x4) _IlIIlIIlIl.Parent = _llllIIllIl local _IIlllIllII = Instance.new("\070\114\097\109\101") _IIlllIllII.Size = UDim2.new(0x0, 0x32, 0x1, 0x0) _IIlllIllII.BackgroundColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IIlllIllII.BorderSizePixel = 0x0 _IIlllIllII.Parent = _llllIIllIl local _llIIIlIlII = Instance.new("\085\073\067\111\114\110\101\114") _llIIIlIlII.CornerRadius = UDim.new(0x0, 0x4) _llIIIlIlII.Parent = _IIlllIllII local _lIlIllIlII = Instance.new("\084\101\120\116\066\117\116\116\111\110") _lIlIllIlII.Size = UDim2.new(0x0, 0x10, 0x0, 0x10) _lIlIllIlII.Position = UDim2.new(0x0, 0x2A, 0x0, -0x4) _lIlIllIlII.BackgroundColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _lIlIllIlII.Text = "" _lIlIllIlII.Parent = _llllIIllIl local _IlIIllIIlI = Instance.new("\085\073\067\111\114\110\101\114") _IlIIllIIlI.CornerRadius = UDim.new(0x1, 0x0) _IlIIllIIlI.Parent = _lIlIllIlII local _IlIllIIllI = Instance.new("\084\101\120\116\076\097\098\101\108") _IlIllIIllI.Size = UDim2.new(0x1, 0x0, 0x0, 0x14) _IlIllIIllI.Position = UDim2.new(0x0, 0x0, 0x0, 0x91) _IlIllIIllI.BackgroundTransparency = 0x1 _IlIllIIllI.Text = "\084\114\097\110\115\112\097\114\101\110\099\121\058\032" .. _lIlIlIIlll _IlIllIIllI.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IlIllIIllI.TextSize = 0xD _IlIllIIllI.Font = Enum.Font.SourceSans _IlIllIIllI.Parent = _lllIIIllll local _IIIIIlIIll = Instance.new("\070\114\097\109\101") _IIIIIlIIll.Size = UDim2.new(0x0, 0x118, 0x0, 0x8) _IIIIIlIIll.Position = UDim2.new(0x0, 0x14, 0x0, 0xAA) _IIIIIlIIll.BackgroundColor3 = Color3.fromRGB(0x78, 0x50, 0xA0) _IIIIIlIIll.BorderSizePixel = 0x0 _IIIIIlIIll.Parent = _lllIIIllll local _llIlIllIlI = Instance.new("\085\073\067\111\114\110\101\114") _llIlIllIlI.CornerRadius = UDim.new(0x0, 0x4) _llIlIllIlI.Parent = _IIIIIlIIll local _IIlIIIlIll = Instance.new("\070\114\097\109\101") _IIlIIIlIll.Size = UDim2.new(0x1, 0x0, 0x1, 0x0) _IIlIIIlIll.BackgroundColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IIlIIIlIll.BorderSizePixel = 0x0 _IIlIIIlIll.Parent = _IIIIIlIIll local _lllIIIIIIl = Instance.new("\085\073\067\111\114\110\101\114") _lllIIIIIIl.CornerRadius = UDim.new(0x0, 0x4) _lllIIIIIIl.Parent = _IIlIIIlIll local _llIIlIlIII = Instance.new("\084\101\120\116\066\117\116\116\111\110") _llIIlIlIII.Size = UDim2.new(0x0, 0x10, 0x0, 0x10) _llIIlIlIII.Position = UDim2.new(0x1, -0xC, 0x0, -0x4) _llIIlIlIII.BackgroundColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _llIIlIlIII.Text = "" _llIIlIlIII.Parent = _IIIIIlIIll local _IIllIIlIlI = Instance.new("\085\073\067\111\114\110\101\114") _IIllIIlIlI.CornerRadius = UDim.new(0x1, 0x0) _IIllIIlIlI.Parent = _llIIlIlIII _IlIlIIlIII.MouseButton1Click:Connect( function () _IllIIIIllI = not _IllIIIIllI if _IllIIIIllI then _IlIlIIlIII.BackgroundColor3 = Color3.fromRGB(0x23, 0xB9, 0x23) _IlIlIIlIII.Text = "\079\078" else _IlIlIIlIII.BackgroundColor3 = Color3.fromRGB(0xC8, 0x23, 0x23) _IlIlIIlIII.Text = "\079\070\070" end
- end
- ) local function _lIlIIlIlIl(trigger, fill, label, prefix, min, max, isTrans) local _llIlIlIIIl = false trigger.MouseButton1Down:Connect( function () _llIlIlIIIl = true end
- ) UserInputService.InputEnded:Connect( function (input) if input.UserInputType == Enum.UserInputType.MouseButton1 then _llIlIlIIIl = false end
- end
- ) UserInputService.InputChanged:Connect( function (input) if _llIlIlIIIl and input.UserInputType == Enum.UserInputType.MouseMovement then local _llIlIIIllI = UserInputService:GetMouseLocation().X local _lIIIlIlIll = trigger.Parent.AbsolutePosition.X local _lIlIlIIlII = trigger.Parent.AbsoluteSize.X local _lIIIIIlIll = math.clamp((_llIlIIIllI - _lIIIlIlIll) / _lIlIlIIlII, 0x0, 0x1) trigger.Position = UDim2.new(_lIIIIIlIll, -0x8, 0x0, -0x4) fill.Size = UDim2.new(_lIIIIIlIll, 0x0, 0x1, 0x0) local _IlIIllIIII = min + (_lIIIIIlIll * (max - min)) if isTrans then _IlIIllIIII = math.floor(_IlIIllIIII * 0x64) / 0x64 _lIlIlIIlll = _IlIIllIIII label.Text = prefix .. "\058\032" .. string.format("\037\046\050\102", _IlIIllIIII) else _IlIIllIIII = math.floor(_IlIIllIIII) _IlllIIIlll = _IlIIllIIII label.Text = prefix .. "\058\032" .. _IlIIllIIII .. "\032\115\116\117\100\115" end
- end
- end
- ) end
- _lIlIIlIlIl(_lIlIllIlII, _IIlllIllII, _IIIIIlllII, "\072\105\116\098\111\120\032\083\105\122\101", 0x2, 0x32, false) _lIlIIlIlIl(_llIIlIlIII, _IIlIIIlIll, _IlIllIIllI, "\084\114\097\110\115\112\097\114\101\110\099\121", 0x0, 0x1, true) task.spawn( function () while true do task.wait(0.3) for _, player in pairs(Players:GetPlayers()) do if player ~= _lIIIIIIIll and player.Character then local _IllIlIlIIl = player.Character local _IlIIlIIlIl = _IllIlIlIIl:FindFirstChild("\072\101\097\100") if _IlIIlIIlIl and _IlIIlIIlIl:IsA("\066\097\115\101\080\097\114\116") then if not _lIlIIllIIl[player.Name] then _lIlIIllIIl[player.Name] = _IlIIlIIlIl.Size end
- if _IllIIIIllI then _IlIIlIIlIl.Size = Vector3.new(_IlllIIIlll, _IlllIIIlll, _IlllIIIlll) _IlIIlIIlIl.Transparency = _lIlIlIIlll _IlIIlIIlIl.CanCollide = false _IlIIlIIlIl.Massless = true else _IlIIlIIlIl.Size = _lIlIIllIIl[player.Name] or Vector3.new(0x2, 0x1, 0x1) _IlIIlIIlIl.Transparency = 0x0 end
- end
- end
- end
- end
- end
- ) end
- )(...)
+local SE = false
+local HS = 7
+local HT = 1
+local OS = {}
+
+local SG = Instance.new("ScreenGui")
+SG.Name = "BloodyPlaygroundGui"
+SG.ResetOnSpawn = false
+pcall(function() SG.Parent = CG end)
+if not SG.Parent then SG.Parent = LP:WaitForChild("PlayerGui", 5) end
+
+local MF = Instance.new("Frame")
+MF.Size = UDim2.new(0, 320, 0, 220)
+MF.Position = UDim2.new(0.05, 0, 0.3, 0)
+MF.BackgroundColor3 = Color3.fromRGB(80, 30, 120)
+MF.BackgroundTransparency = 0.4
+MF.BorderSizePixel = 0
+MF.Active = true
+MF.Draggable = true
+MF.Parent = SG
+
+local MC = Instance.new("UICorner")
+MC.CornerRadius = UDim.new(0, 16)
+MC.Parent = MF
+
+local T = Instance.new("TextLabel")
+T.Size = UDim2.new(1, 0, 0, 45)
+T.BackgroundTransparency = 1
+T.Text = "Bloody Playground"
+T.TextColor3 = Color3.fromRGB(255, 255, 255)
+T.TextSize = 18
+T.Font = Enum.Font.SourceSansBold
+T.Parent = MF
+
+local TB = Instance.new("TextButton")
+TB.Size = UDim2.new(0, 280, 0, 40)
+TB.Position = UDim2.new(0, 20, 0, 45)
+TB.BackgroundColor3 = Color3.fromRGB(200, 35, 35)
+TB.Text = "OFF"
+TB.TextColor3 = Color3.fromRGB(255, 255, 255)
+TB.TextSize = 16
+TB.Font = Enum.Font.SourceSansBold
+TB.Parent = MF
+
+local BC = Instance.new("UICorner")
+BC.CornerRadius = UDim.new(0, 10)
+BC.Parent = TB
+
+local SL = Instance.new("TextLabel")
+SL.Size = UDim2.new(1, 0, 0, 20)
+SL.Position = UDim2.new(0, 0, 0, 95)
+SL.BackgroundTransparency = 1
+SL.Text = "Hitbox Size: 7 studs"
+SL.TextColor3 = Color3.fromRGB(255, 255, 255)
+SL.TextSize = 13
+SL.Font = Enum.Font.SourceSans
+SL.Parent = MF
+
+local SSF = Instance.new("Frame")
+SSF.Size = UDim2.new(0, 280, 0, 8)
+SSF.Position = UDim2.new(0, 20, 0, 120)
+SSF.BackgroundColor3 = Color3.fromRGB(120, 80, 160)
+SSF.BorderSizePixel = 0
+SSF.Parent = MF
+
+local SSC = Instance.new("UICorner")
+SSC.CornerRadius = UDim.new(0, 4)
+SSC.Parent = SSF
+
+local SF = Instance.new("Frame")
+SF.Size = UDim2.new(0, 50, 1, 0)
+SF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SF.BorderSizePixel = 0
+SF.Parent = SSF
+
+local SFC = Instance.new("UICorner")
+SFC.CornerRadius = UDim.new(0, 4)
+SFC.Parent = SF
+
+local ST = Instance.new("TextButton")
+ST.Size = UDim2.new(0, 16, 0, 16)
+ST.Position = UDim2.new(0, 42, 0, -4)
+ST.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ST.Text = ""
+ST.Parent = SSF
+
+local TC = Instance.new("UICorner")
+TC.CornerRadius = UDim.new(1, 0)
+TC.Parent = ST
+
+local TL = Instance.new("TextLabel")
+TL.Size = UDim2.new(1, 0, 0, 20)
+TL.Position = UDim2.new(0, 0, 0, 145)
+TL.BackgroundTransparency = 1
+TL.Text = "Transparency: 1"
+TL.TextColor3 = Color3.fromRGB(255, 255, 255)
+TL.TextSize = 13
+TL.Font = Enum.Font.SourceSans
+TL.Parent = MF
+
+local TSF = Instance.new("Frame")
+TSF.Size = UDim2.new(0, 280, 0, 8)
+TSF.Position = UDim2.new(0, 20, 0, 170)
+TSF.BackgroundColor3 = Color3.fromRGB(120, 80, 160)
+TSF.BorderSizePixel = 0
+TSF.Parent = MF
+
+local TSC = Instance.new("UICorner")
+TSC.CornerRadius = UDim.new(0, 4)
+TSC.Parent = TSF
+
+local TF = Instance.new("Frame")
+TF.Size = UDim2.new(1, 0, 1, 0)
+TF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TF.BorderSizePixel = 0
+TF.Parent = TSF
+
+local TFC = Instance.new("UICorner")
+TFC.CornerRadius = UDim.new(0, 4)
+TFC.Parent = TF
+
+local TT = Instance.new("TextButton")
+TT.Size = UDim2.new(0, 16, 0, 16)
+TT.Position = UDim2.new(1, -12, 0, -4)
+TT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TT.Text = ""
+TT.Parent = TSF
+
+local TC2 = Instance.new("UICorner")
+TC2.CornerRadius = UDim.new(1, 0)
+TC2.Parent = TT
+
+TB.MouseButton1Click:Connect(function()
+    SE = not SE
+    if SE then
+        TB.BackgroundColor3 = Color3.fromRGB(35, 185, 35)
+        TB.Text = "ON"
+    else
+        TB.BackgroundColor3 = Color3.fromRGB(200, 35, 35)
+        TB.Text = "OFF"
+    end
+end)
+
+local function Setup(trig, fill, lbl, pref, mn, mx, isT)
+    local drag = false
+    trig.MouseButton1Down:Connect(function() drag = true end)
+    UIS.InputEnded:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then drag = false end end)
+    UIS.InputChanged:Connect(function(i)
+        if drag and i.UserInputType == Enum.UserInputType.MouseMovement then
+            local m = UIS:GetMouseLocation().X
+            local l = trig.Parent.AbsolutePosition.X
+            local w = trig.Parent.AbsoluteSize.X
+            local p = math.clamp((m - l) / w, 0, 1)
+            trig.Position = UDim2.new(p, -8, 0, -4)
+            fill.Size = UDim2.new(p, 0, 1, 0)
+            local v = mn + (p * (mx - mn))
+            if isT then
+                v = math.floor(v * 100) / 100
+                HT = v
+                lbl.Text = pref .. ": " .. string.format("%.2f", v)
+            else
+                v = math.floor(v)
+                HS = v
+                lbl.Text = pref .. ": " .. v .. " studs"
+            end
+        end
+    end)
+end
+
+Setup(ST, SF, SL, "Hitbox Size", 2, 50, false)
+Setup(TT, TF, TL, "Transparency", 0, 1, true)
+
+task.spawn(function()
+    while true do
+        task.wait(0.3)
+        for _, p in pairs(P:GetPlayers()) do
+            if p ~= LP and p.Character then
+                local c = p.Character
+                local h = c:FindFirstChild("Head")
+                if h and h:IsA("BasePart") then
+                    if not OS[p.Name] then OS[p.Name] = h.Size end
+                    if SE then
+                        h.Size = Vector3.new(HS, HS, HS)
+                        h.Transparency = HT
+                        h.CanCollide = false
+                        h.Massless = true
+                    else
+                        h.Size = OS[p.Name] or Vector3.new(2, 1, 1)
+                        h.Transparency = 0
+                    end
+                end
+            end
+        end
+    end
+end)
