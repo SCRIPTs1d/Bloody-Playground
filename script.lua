@@ -1,8 +1,11 @@
--- Bloody Playground (Official Script)
+-- Bloody Playground (Safe GUI Injection)
 local P = game:GetService("Players")
 local LP = P.LocalPlayer
-local CG = game:GetService("CoreGui")
 local UIS = game:GetService("UserInputService")
+
+-- Esperar de forma segura a que cargue la interfaz del jugador
+local PG = LP:WaitForChild("PlayerGui", 10)
+if not PG then return end
 
 local SE = false
 local HS = 7
@@ -12,8 +15,7 @@ local OS = {}
 local SG = Instance.new("ScreenGui")
 SG.Name = "BloodyPlaygroundGui"
 SG.ResetOnSpawn = false
-pcall(function() SG.Parent = CG end)
-if not SG.Parent then SG.Parent = LP:WaitForChild("PlayerGui", 5) end
+SG.Parent = PG
 
 local MF = Instance.new("Frame")
 MF.Size = UDim2.new(0, 320, 0, 220)
